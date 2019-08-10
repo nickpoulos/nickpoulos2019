@@ -32,6 +32,7 @@
 
             .project-logo { max-height: 225px; }
 
+            #project-section-title { line-height: 2; }
             #nyc-video {
                 object-fit: cover;
                 width: 100%;
@@ -294,7 +295,7 @@
                     <!-- Filter Bar -->
                     <nav class="filter-bar bg-primary dark">
                         <div class="tabs-wrapper">
-                            <h2 class="mb-0">Latest Projects</h2>
+                            <h2 id="project-section-title" class="mb-0">Latest Projects</h2>
                             <span class="selector"></span>
                         </div>
                     </nav>
