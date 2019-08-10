@@ -5,7 +5,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <img :src="'/storage/' + currentProject.logo_image" alt="" class="mb-40">
+                    <img :src="'/storage/' + currentProject.logo_image" alt="" class="project-logo mb-40">
                     <h3>@{{ currentProject.title }}</h3>
                     <p class="lead text-muted">@{{ currentProject.main_description }}</p>
                 </div>

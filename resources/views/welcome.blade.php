@@ -30,6 +30,8 @@
 
             #ajax-loader { opacity: 0; display: none; }
 
+            .project-logo { max-height: 225px; }
+
             #nyc-video {
                 object-fit: cover;
                 width: 100%;
