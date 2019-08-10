@@ -38,6 +38,7 @@
             }
 
             .accordion-list { padding-left: 0; text-align: left; }
+
             .accordion-list li { margin-bottom: 15px; }
 
             .work-responsibility li { margin-bottom: 15px; }
