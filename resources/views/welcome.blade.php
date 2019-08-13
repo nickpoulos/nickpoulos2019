@@ -374,7 +374,7 @@
                                     <li>@{{ fullDate(post.pubDate) }}</li>
                                     <li>by @{{ post.author }}</li>
                                 </ul>
-                                <h4><a href="blog-post-vertical-dark-no-photo.html" v-html="post.title"></a></h4>
+                                <h4><a :href="post.link" v-html="post.title"></a></h4>
                                 <div v-html="trimWord(post.description, 500)"></div>
                                 <div class="text-center mt-20">
                                     <a :href="post.link" class="btn btn-primary" target="_blank">Read More</a>
