@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Experience;
 use App\Project;
+use App\Reference;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 
@@ -31,8 +32,9 @@ class SiteController extends Controller
             return $experience;
         })->toArray());
 
+        $references = array_values(Reference::all()->sortByDesc('created_at')->toArray());
 
-        return view('welcome', compact('projects', 'experiences'));
+        return view('welcome', compact('projects', 'experiences', 'references'));
     }
 
     public function project(Request $request, $projectId)

@@ -53,6 +53,19 @@
                 opacity: 1;
             }
 
+            .ref-initials {
+                height: 45px;
+                border-radius: 30px;
+                width: 45px;
+                border: 2px solid #3a6bc4;
+                float: left;
+                font-weight: 700;
+                margin-right: 17px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
             .fadeout {
                 opacity: 0;
                 transition: opacity 1000ms;
@@ -326,13 +339,16 @@
                             <div v-masonry-tile v-for="(reference, index) in references" :key="index" class="masonry-item col-sm-6 col-xs-12">
                                 <!-- Blockquote -->
                                 <blockquote :id="'reference-' + index" class="animated" data-animation="fadeIn" v-observe-visibility="(isVisible, entry) => visibilityChanged(isVisible, entry, 'reference-' + index)">
-                                    <p>@{{ reference.body }}</p>
+                                    <p>@{{ reference.quote }}</p>
                                     <footer>
-                                        <img src="/img/avatars/avatar01.jpg" alt="">
+                                        <div class="ref-initials">
+                                            <div class="ref-initial">@{{ initials(reference.name) }}</div>
+                                        </div>
                                         <div class="content">
                                             <span class="name">@{{ reference.name }}</span>
-                                            <div class="caption">@{{ reference.title }}</div>
+                                            <div class="caption">@{{ reference.title }} - @{{ reference.company }}</div>
                                         </div>
+                                        <div class="mt-20"><a :href="'/storage/' + reference.reference_file" class="btn btn-primary btn-block btn-sm">Download PDF</a></div>
                                     </footer>
                                 </blockquote>
                             </div>
@@ -508,9 +524,20 @@
                 },
                 data: {
                     projects: @json($projects),
-                    experience: @json($experiences)
+                    experience: @json($experiences),
+                    references: @json($references),
                 },
                 methods: {
+                    initials: function(name) {
+                            const regexChar = /\D\w+/;
+                            return name
+                                .trim() //remove trailing spaces
+                                .split(' ') // splits on spaces
+                                .filter(word => word.length > 0) // strip out double spaces
+                                .filter(word => regexChar.test(word)) // strip out special characters
+                                .map(word => word.substring(0, 1).toUpperCase()) // take first letter from each word and put into array
+                                .join('');
+                    },
                     bold: function(val) {
                         return val.replace(/\*[A-z0-9,'\$\+ ]+\*/gi, function (x) {
                             return '<strong>' + x.substring(1, x.length - 1) + '</strong>';

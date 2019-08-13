@@ -5,7 +5,6 @@ const ucwords = require('locutus/php/strings/ucwords');
 window.Vue = require('vue');
 window.VueScrollTo = require('vue-scrollto');
 
-
 import 'waypoints/lib/noframework.waypoints.min.js';
 import VueObserveVisibility from 'vue-observe-visibility';
 import {VueMasonryPlugin} from 'vue-masonry';
@@ -52,26 +51,6 @@ const app = new Vue({
         latestPosts: null,
         sendingEmail: false,
         pageLoading: true,
-        references: [
-            {
-                name: 'Matt Messinger',
-                title: 'Engineering Director WildSky Media',
-                body: 'Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat ullamcorper elit.',
-                image: 'matt.jpg'
-            },
-            {
-                name: 'Maysam Saghedi',
-                title: 'Engineering Director WildSky Media',
-                body: 'Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat ullamcorper elit.',
-                image: 'matt.jpg'
-            },
-            {
-                name: 'Matt Messinger',
-                title: 'Engineering Director WildSky Media',
-                body: 'Sed lacinia, nibh sit amet auctor vestibulum, enim risus condimentum erat, quis vestibulum mi ligula a nulla. Nulla vitae pharetra tellus.Aenean ac tincidunt augue, volutpat ullamcorper elit.',
-                image: 'matt.jpg'
-            },
-        ]
     },
     methods: {
         year: function (date) {
