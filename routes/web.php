@@ -13,8 +13,11 @@
 
 Route::get('/', 'SiteController@home');
 Route::get('/2', 'SiteController@home2');
-Route::get('/test', 'SiteController@test');
 Route::get('/fetch-posts', 'SiteController@latestMediumPosts');
 Route::post('/send-email', 'SiteController@sendEmail');
 
 Route::get('/project/{project}', 'SiteController@project');
+
+Route::get('/test', 'CareerController@test');
+Route::get('/test2', 'CareerController@test2');
+Route::get('/test3', 'CareerController@test3');
