@@ -48,9 +48,19 @@
                             <a class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="https://front-line-php.com/" target="_blank">Front Line PHP</a>
                         </li>
                         <li>
+                            <h4>Hackerbox</h4>
+                            <p>Also on my xmas list this year.  They have cool little theme boxes around hacking projects, diff prices too. </p>
+                            <a class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="https://hackerboxes.com/" target="_blank">Hackerboxes</a>
+                        </li>
+                        <li>
                             <h4>Hands On High Performance Javascript</h4>
                             <p>New JS book I was interested in -- covering Node, Svelte, WebAssembly.</p>
                             <a class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="https://www.amazon.com/dp/B082T14XFZ?tag=uuid10-20" target="_blank">Hands On High Performance Javascript</a>
+                        </li>
+                        <li>
+                            <h4>iFixit Computer Toolkit</h4>
+                            <p>Love this kit, I use it all the time. All sorts of bits, drivers, pry-bars, and tons of other tools for small electronics. </p>
+                            <a class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="https://www.ifixit.com/Store/Tools/Pro-Tech-Toolkit/IF145-307" target="_blank">iFixIt Toolkit</a>
                         </li>
                         <li>
                             <h4>Grokking Algorithms Book</h4>
