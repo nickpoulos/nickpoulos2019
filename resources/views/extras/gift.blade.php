@@ -23,9 +23,11 @@
                 <div class="prose">
                     <p>Congrats, you solved the puzzle!</p>
 
-                    <p>Thank you everyone for all your hard work this last year.  Sorry to make you work a little more for your Christmas gift, but hopefully you had some fun with it.</p>
+                    <p>Thank you everyone for all your hard work this last year.  Even with all the craziness you all proved yourselves to be true professionals and I really appreciate it as a manager.</p>
 
-                    <p>These are regular Visa Gift Cards, so feel free to buy anything anywhere. But since I'm your manager I have compiled a list of a few cool engineering items just in case you need some ideas...but if you pick a book talk to me about expensing first ;)</p>
+                    <p>Anyway, sorry to make you work a little more for your Christmas gift, but hopefully you had some fun with it!</p>
+
+                    <p>These are regular Visa Gift Cards, feel free to buy anything you like from anywhere. But just in case you need some ideas, I have compiled a list of a few cool engineering items to check out.  Note: if you decide to pick a book -- talk to me about expensing first and buy something else ;)</p>
 
                     <p>See everyone in 2021!</p>
                     <hr>
