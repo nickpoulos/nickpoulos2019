@@ -67,6 +67,11 @@
                             <p>A great and gentle intro book to Algorithms some more general Computer Science concepts.</p>
                             <a class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="https://www.amazon.com/Grokking-Algorithms-illustrated-programmers-curious/dp/1617292230" target="_blank">Grokking Algorithms Book</a>
                         </li>
+                        <li>
+                            <h4>Hak5 USB RubberDuck Tool</h4>
+                            <p>Fun little hacking tool, I have one.  I AM NOT RESPONSIBLE FOR ANYTHING YOU DECIDE TO DO WITH IT</p>
+                            <a class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="https://shop.hak5.org/collections/sale/products/usb-rubber-ducky-deluxe" target="_blank">USB RubberDuck Hacking Tool</a>
+                        </li>
                     </ul>
 
                 </div>
